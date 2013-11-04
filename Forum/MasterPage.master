@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Forum_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../Stylesheets/MasterPage.css" type="text/css" rel="Stylesheet" />
+    <link href="../Stylesheets/Forum/Forum.css" type="text/css" rel="Stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--HEADER AREA-->
+        <div class="section_wrapper is_header">
+            <table>
+                <tr>
+                    <td valign="top">
+                        <div class="section logo">
+                            <span>
+                                <img src="../Images/logowork.png" />
+                            </span>
+                        </div>
+                    </td>
+                    <td valign="Middle">
+                        <div align="right" class="section Navigation">
+                            <a href="http://ipchaap.com" class="Menu"><span>Shop</span></a>&nbsp&nbsp&nbsp 
+                            <a href="../esol_serv.aspx" class="Menu"><span>E-Solutions</span></a>&nbsp&nbsp&nbsp
+                            <a href="http://ipchaap.com" class="Menu"><span>Exam Material</span></a>&nbsp&nbsp&nbsp
+                            <a href="../Forum" class="Menu"><span>Forum</span></a>&nbsp&nbsp&nbsp 
+                            <a href="http://ipchaap.com" class="Menu"><span>Blog</span></a>&nbsp&nbsp&nbsp 
+                            <a href="../Login.aspx" class="Menu"><span>Login</span></a>&nbsp&nbsp&nbsp
+                            <a href="../Login.aspx" class="Menu"><span class="Ishighlighted">Create a Free Account</span></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+
+        <!--FOOTER AREA-->
+        <div class="section_wrapper isNOT_header is_footer">
+            <table>
+                <tr>
+                    <td valign="top" style="width:55%;">
+                        <div class="links_section">
+                            <table>
+                                <tr>
+                                    <td valign="top">
+                                        <ul>
+                                            <li><a href="../Login.aspx"><span>Create a Free Account</span></a></li>
+                                            <li><a href="#"><span>Read E-Solutions</span></a></li>
+                                            <li><a href="#"><span>Advetise With Us</span></a></li>
+                                            <li><a href="#"><span>Support</span></a></li>
+                                            <li><a href="#"><span>Affiliate Program</span></a></li>
+                                        </ul>
+                                    </td>
+                                    <td valign="top">
+                                        <ul>
+                                            <li><a href="../about.aspx"><span>Who Are We ?</span></a></li>
+                                            <li><a href="#"><span>Take Part @ IPchaap</span></a></li>
+                                            <li><a href="../shipping_return.aspx"><span>Return & Shipping Policy</span></a></li>
+                                            <li><a href="../terms.aspx"><span>Terms of Use</span></a></li>
+                                            <li><a href="../privacypolicy.aspx"><span>Privacy Policy</span></a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td valign="top" style="padding-right:7%;">
+                        <div class="Descr_section">
+                            Learning Point teaches Technologies in the comfort of your browser with video lessons, coding challenges, and screencasts. We strive to help you learn by doing.
+Learn More
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="Copyright_section">
+                © 2013 IP Chaap - Crafted By <a href="">Rishabh Malhotra</a> & <a href="">Jatin Arora</a>.
+                <br />
+                <a href="#"><img src="http://d1tijy5l7mg5kk.cloudfront.net/assets/icn-footer-facebook-8cf765437f9aa26806e973621c77b80b.png" /></a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

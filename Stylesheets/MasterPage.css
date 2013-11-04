@@ -1,0 +1,249 @@
+﻿body 
+{
+    width:100%;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width:50%;
+    margin: auto;
+}
+
+/*Section Wrapper*/
+.section_wrapper
+{
+    width:100%;
+}
+
+.section_wrapper.is_login_stripe
+{
+    width:93%;
+    height:30px;
+    background-color:#555566;
+    padding:3px 5% 3px 2%;
+}
+
+.section_wrapper.is_header
+{
+    height:80px;
+    background-color:White;
+    font-family: sans-serif;
+}
+
+.section_wrapper.is_footer
+{
+    height:280px;
+    background-color:#3F4944;
+}
+
+.section_wrapper table
+{
+    width:90%;
+    margin:auto;
+    padding-bottom:10px;
+}
+
+
+.section_wrapper.is_login_stripe .Greeting
+{
+    font-family:Calibri;
+    font-style:oblique;
+    font-size:18px;
+    color:FloralWhite;
+}
+
+.section_wrapper.is_login_stripe img
+{
+    border-radius:3px;
+    opacity:0.9;
+    border-color:transparent;
+    border-style:solid;
+    border-width:1px;
+    transition:border-color 0.4s,border-width 0.4s,border-style 0.4s, opacity 0.4s;
+}
+
+.section_wrapper.is_login_stripe img:hover
+{
+    border-color:rgba(150,15,20,0.8);
+    border-style:solid;
+    border-width:1px;
+    opacity:1;
+}
+
+.section_wrapper.is_login_stripe .imglink
+{
+    float:none;
+    cursor:pointer;
+}
+
+.section_wrapper.is_login_stripe a
+{
+    font-family:Candara;
+    font-size:16px;
+    color:FloralWhite;
+    padding-top:6px;
+    padding-left:8px;
+    padding-right:8px;
+    float:right;
+    cursor:pointer;
+    transition:color 0.3s,text-shadow 0.3s;
+}
+
+.section_wrapper.is_login_stripe a:hover
+{
+    color:White;
+    text-shadow:0px 0px 1px White;
+}
+
+
+
+.section_wrapper.is_header .section
+{
+    width:auto;
+    padding-left:3%;
+    padding-right:3%;
+    margin:auto;
+}
+
+.section_wrapper.is_header .section.logo
+{
+    padding-top:10px;
+}
+
+.section_wrapper.is_header .section.logo span
+{
+    color:rgba(20,20,20,0.8);
+    font-size:38px;
+    font-family:Lucida Console;
+}
+
+.section_wrapper.is_header .section.Navigation
+{
+    padding-top:5px;
+   
+}
+
+.section_wrapper.is_footer .links_section
+{
+    color:#bfbeb2;  
+    width:80%;    
+    font-family:Corbel; 
+}
+
+.section_wrapper.is_footer .links_section ul li
+{
+    padding:2%;
+    list-style:none;
+}
+
+.section_wrapper.is_footer .links_section ul li a
+{
+    color:inherit;
+    transition:color 0.2s;
+    text-decoration:none;
+}
+
+.section_wrapper.is_footer .links_section ul li a:hover
+{
+    cursor:pointer;
+    color:rgba(280,280,280,0.8);
+}
+
+.section_wrapper.is_footer .Descr_section
+{
+    padding:4%;
+    color:#bfbeb2;  
+    width:100%;    
+    font-family:Corbel;
+}
+
+.section_wrapper.is_footer .Copyright_section
+{
+    color:#a3a3a3;  
+    width:100%; 
+    text-align:center;   
+    font-family:Corbel;
+}
+
+.section_wrapper.is_footer .Copyright_section a
+{
+    color:#a3a3a3;  
+    width:100%; 
+    text-align:center;   
+    font-family:Corbel;
+    opacity:0.8;
+    text-decoration:none;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.section_wrapper.is_footer .Copyright_section a:hover
+{
+    opacity:1;
+}
+
+.section_wrapper.is_footer .Copyright_section img
+{
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    opacity:0.7;
+}
+
+.section_wrapper.is_footer .Copyright_section img:hover
+{
+    opacity:1;
+}
+
+/*Menu Properties*/
+.Menu
+{
+    text-decoration:none;
+
+}
+
+.Menu span
+{
+    color:Black;
+    font-size:16px;
+    font-weight: bold;
+    padding:4px;
+    border-bottom-color:White;
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    border-bottom-radius:1px;
+    transition:border-bottom-color 0.3s;
+    font-family:sans-serif;
+}
+
+.Menu span:hover
+{
+    border-bottom-color:rgba(185,20,20,0.6);
+}
+
+.Menu span.Ishighlighted
+{
+    font-size:16px;
+    color:White;
+    padding: 8px;
+    transition:background-color 0.3s;
+    background-color:#27ae60;
+    border-radius:3px;
+}
+
+.Menu span.Ishighlighted:hover
+{
+    background-color:#447651;
+    border-bottom-color:white;
+}
+
+
+

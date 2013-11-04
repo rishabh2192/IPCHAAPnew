@@ -1,0 +1,356 @@
+﻿.section_wrapper.isNOT_header
+{
+    margin-top:0px;
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+.section_wrapper.is_getstarted
+{
+    height: 350px;
+    background-color:White;
+    /*background: url('../Images/back.jpg') no-repeat;*/
+}
+
+.section_wrapper.is_marquee
+{
+    background-color:#d5edec;
+    box-shadow:0px 0px 5px Black;
+}
+
+.section_wrapper.is_features
+{
+    background-color:#ECF8E8;
+    
+}
+
+.section_wrapper.is_trustedby{
+
+    background-color:#34495e;
+    /*background-image: url('../Images/BG.gif');*/
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 43px;
+   
+    
+}
+
+.section_wrapper.is_studentsaying
+{
+    height:650px;
+    background-color:#34495e;
+}
+
+
+
+
+.section_wrapper.is_getstarted .Teaser_Text_section
+{
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:30px;
+}
+
+.section_wrapper.is_getstarted .Teaser_Text_section .Heading
+{
+    font-family: 'Corbel', sans-serif;
+    text-align: center;
+    font-size:58px;
+    color:#444444;
+    line-height:51px;
+    letter-spacing:-1px;
+    font-weight: 600;
+    
+}
+
+.section_wrapper.is_getstarted .Teaser_Text_section .Subheadings
+{
+    font-family: 'Candara', sans-serif;
+    font-size:25px;
+    color:#111111;
+}
+
+.section_wrapper.is_getstarted .Teaser_Video_section 
+{
+    border:10px solid rgba(0,0,0,0.3);
+    border-radius:8px;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    opacity:0.85;
+}
+
+.section_wrapper.is_getstarted .Teaser_Video_section:hover
+{
+    opacity:1;
+}
+
+
+.section_wrapper.is_marquee .Heading
+{
+    width:90%;
+    text-align:center;
+    margin:auto;
+}
+
+.section_wrapper.is_marquee .Heading span:nth-child(odd)
+{
+    color:rgba(0,0,0,0.5);
+    font-size:28px;
+    font-family:candara;
+    font-weight:bold;
+}
+
+.section_wrapper.is_marquee .Heading span:nth-child(even)
+{
+    color:rgba(35,35,35,0.5);
+    font-size:19px;
+    line-height:21px;
+    font-family:corbel;
+}
+
+.section_wrapper.is_marquee hr
+{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+
+.section_wrapper.is_features .Heading
+{
+    width:90%;
+    text-align:center;
+    margin:auto;
+}
+
+.section_wrapper.is_features .Heading span
+{
+    color:#333333;
+    font-size:50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:300;
+    letter-spacing: 0.5px;
+}
+
+.section_wrapper.is_features .Heading span span
+{
+    color:#919191;
+    font-size:24px;
+    line-height:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section_wrapper.is_features table tr:nth-child(odd)
+{
+    text-align:left;
+}
+
+.section_wrapper.is_features table tr:nth-child(even)
+{
+    text-align:right;
+}
+
+.section_wrapper.is_features table tr td:nth-child(odd)
+{
+    width: 50%;
+    vertical-align:top;
+    padding:2% 1% 0px 2%;
+}
+
+.section_wrapper.is_features table tr td:nth-child(even)
+{
+    width: 50%;
+    vertical-align:top;
+    padding:2% 1% 0px 1%;
+}
+
+
+.section_wrapper.is_trustedby span{
+    
+    color: white;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    font-weight: 200;
+    top: -5px;
+    
+}
+
+.section_wrapper.is_trustedby span span{
+    margin-left:10px;
+    font-size: 70px;
+    font-weight: 600;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+
+
+
+.section_wrapper.isNOT_header.is_studentsaying .CircleImage
+{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 45em;
+    -moz-border-radius: 45em;
+    /*border-radius: 45em;*/
+    /*border: 5px solid rgba(255,255,255,0.6);*/
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+    opacity:0.8;
+}
+
+.section_wrapper.isNOT_header.is_studentsaying{
+    text-align: center;
+}
+
+.section_wrapper.isNOT_header.is_studentsaying table{
+    width: 28%;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+
+
+
+
+/*Marquee Properties*/
+.marquee
+{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+}
+
+.marquee span
+{
+    font-family:Latha;
+    font-size:28px;
+    font-weight:bold;
+    padding:2px 6px 2px 6px; 
+    color:rgba(112,100,56,00.5);
+    transition:all 0.5s;
+}
+
+.marquee span:hover
+{
+    color:rgba(112,100,56,0.7);
+    cursor:pointer;    
+}
+
+
+/*Features Properties*/
+.features
+{
+    text-align:Left;
+}
+
+.features .Heading
+{
+    color:#333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:42px;
+    line-height: 60px;
+    font-weight:300;
+    letter-spacing: 0px;
+
+
+}
+
+.features .Description
+{
+    color:#606060;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+
+
+/*Reviews Properties*/
+
+
+
+.studentsaying .Name
+{
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    padding: 20px auto;
+    line-height:40%;
+    color:#efefef;
+    
+}
+
+.studentsaying .college{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    padding: auto;
+    color:#9f9f9f;
+}
+
+
+.studentsaying .Review {
+    padding-top: 0px;
+    margin: 2px 15px;
+    overflow: hidden; /* clearfix alternative */
+    font-size: 21px;
+    text-align: left;
+    color: #e0e0e0;
+    height: 125px;
+    font-style: italic;
+
+}
+
+.studentsaying .Review:before {
+    display: inline;
+    float: left;
+    margin: 10px 15px 0 0;
+    font-size: 60px; /* let's make it a big quote! */
+    content: '\201C'; /* here we define our :before as a smart quote. It could be any content, even the HTML entity alternative to this opening quote, that is “ */
+    color: #bababa;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 1px 1px #909090;
+}
+
+
+
+.click_button{
+
+    background-color: #9b59b6;
+    margin: auto;
+    margin-left: 100px;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    border-radius:3px;
+    font-weight: 600;
+    padding: 13px;
+    padding-right: 23px; 
+    padding-left: 23px;
+}
+
+.click_button:hover{
+    background-color: #850fb6;
+}
+
+.click_button.top{
+    margin-left: auto;
+}
+
+.kick_start{
+    font-size: 40px;
+    color: #ebebeb;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100px;
+}
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    background-color:#fdfdfd;
+}
+
+.container_header
+{
+    width:85%;
+    margin: 15px auto 3px auto;
+}
+
+.container_header .blogs
+{
+    font-family:Calibri;
+    font-size:28px;
+    color:Green;
+}
+
+.container_header .back
+{
+    color:brown;
+    font-family:Corbel;
+    font-size:16px;
+    font-weight:bold;
+    float:right;
+}
+
+.container_article
+{
+    width:55%;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.container_article .heading
+{
+    text-align:center;
+    font-family:Corbel;
+    line-height:20px;
+    font-style:italic;
+    font-size:36px;
+    color:#202090;
+}
+
+.container_article .heading .author
+{
+    font-family:Candara;
+    font-size:18px;
+    color:#151599;
+}
+
+.container_article hr
+{
+    width:90%;
+    margin:2px auto 25px auto;
+    border:1px solid #202075;
+}
+
+.container_article .content
+{
+    padding-top:8px;
+    font-family:Candara;
+    font-size:22px;
+    color:Black;
+    word-wrap: break-word;
+    
+}
+
+.container_footer
+{
+    text-align:center;
+    color:#c7c7c7;
+    font-family:Corbel;
+    padding:3px auto 3px auto;
+    font-size:14px;
+    width:100%;
+    background-color:rgba(20,20,75,0.65);
+}

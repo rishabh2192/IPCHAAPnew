@@ -1,0 +1,21 @@
+﻿.container
+{
+    width:90%;
+    background-color:#FAFAFA;
+    padding:20px 5% 20px 5%;
+    font-family:Candara;
+}
+
+.container .Heading
+{
+    font-family:Corbel;
+    font-size:26px;
+    font-weight:bold;
+    color:#002060;
+}
+
+.heading_policy_submain
+{ font-size:18px; font-weight:bold; }
+
+.heading_policy_content
+{ font-size:14px; }
